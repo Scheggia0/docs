@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["en/home"]
+            "pages": ["en/development"]
           }
         ]
       },
@@ -24,7 +24,7 @@
         "groups": [
           {
             "group": "Iniziamo!",
-            "pages": ["it/home"]
+            "pages": ["it/development"]
           }
         ]
       }
