@@ -9,26 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "languages": [
-      {
-        "language": "en",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": ["en/development"]
-          }
-        ]
-      },
-      {
-        "language": "it",
-        "groups": [
-          {
-            "group": "Iniziamo!",
-            "pages": ["it/development"]
-          }
-        ]
-      }
-    ],
     "tabs": [
       {
         "tab": "Guides",
