@@ -9,6 +9,26 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["en/home"]
+          }
+        ]
+      },
+      {
+        "language": "it",
+        "groups": [
+          {
+            "group": "Iniziamo!",
+            "pages": ["it/home"]
+          }
+        ]
+      }
+    ],
     "tabs": [
       {
         "tab": "Guides",
