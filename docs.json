@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "Scheggia Cloud",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6e9be6",
+    "light": "#89aeeb",
+    "dark": "#5087e2"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/lightly-icon-2.png",
   "navigation": {
     "languages": [
       {
@@ -15,7 +15,11 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["en/development"]
+            "pages": ["en/home"]
+          },
+          {
+            "group": "Fix, tools and optimizations",
+            "pages": ["en/speedtest", "en/pterodactyl"]
           }
         ]
       },
@@ -23,51 +27,25 @@
         "language": "it",
         "groups": [
           {
-            "group": "Iniziamo!",
-            "pages": ["it/development"]
-          }
-        ]
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "group": "Documentazione",
+            "pages": ["it/home"]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Fix, tools e ottimizzazioni",
+            "pages": ["it/speedtest", "it/pterodactyl"]
           }
         ]
       }
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Control Panel",
-          "href": "https://vps.scheggia.cloud",
-          "icon": "server"
-        }
+
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logo_black.png",
+    "dark": "/images/logo.png"
   },
   "navbar": {
     "links": [
@@ -78,8 +56,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Control Panel",
+      "href": "https://vps.scheggia.cloud"
     }
   },
   "footer": {

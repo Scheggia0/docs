@@ -1,0 +1,25 @@
+---
+title: "Fix: Pterodactyl"
+---
+
+On this page you will find the script to fix the problem of missing connectivity within Pterodactyl docker containers.
+
+<Warning>
+   Before proceeding make sure you have followed the [official Wings installation guide](https://pterodactyl.io/wings/1.0/installing.html) and turned off all containers (servers) on your Pterodactyl panel
+</Warning>
+
+1. If not installed, download cURL on your server
+
+   ```bash
+   apt install curl
+   ```
+2. Run the automated script
+
+   ```bash
+   curl -sSL https://get.docker.com/ | CHANNEL=stable bash
+   ```
+   
+   This script corrects the MTU in the Wings config file (`/etc/pterodactyl/config.yml`) and automatically restarts Docker and Wings services.
+3. Avvia il tuo server e verifica il corretto funzionamento
+
+   Se riscontri ancora problemi non esitare a contattarci

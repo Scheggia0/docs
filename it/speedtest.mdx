@@ -1,0 +1,29 @@
+---
+title: "Speedtest"
+---
+
+Di seguito è spiegato come installare [Speedtest® Ookla](https://speedtest.net) (il tool più affidabile) per verificare la velocità di connessione del tuo server.
+
+1. Se non presente, installa cURL sul tuo server
+   ```sh
+   apt install curl
+   ```
+2. Rimuovi eventuali speedtest precedenti
+   ```sh
+   apt-get remove speedtest-cli
+   ```
+2. Scarica il pacchetto Ookla Speedtest
+   ```sh
+   curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+   ```
+3. Concludi l'installazione
+   ```sh
+   apt install speedtest
+   ```
+4. Esegui un test di velocità
+   ```sh
+   speedtest -s 3667
+   ```
+   <Info>
+   Specificando `-s 3667` viene utilizzato il server **TIM SpA - Milano** che garantisce un risultato accurato poichè a volte la selezione automatica utilizza server lontani e poco affidabili
+   </Info>
