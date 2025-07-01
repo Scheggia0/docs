@@ -36,24 +36,13 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/images/logo_black.png",
     "dark": "/images/logo.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Control Panel",
